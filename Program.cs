@@ -14,3 +14,22 @@ System.Console.WriteLine($"После начисления 5%: {balance}");
 
 balance /= 2; //разделили счёт пополам с партнёром
 System.Console.WriteLine($"После деления пополам: {balance}");
+
+System.Console.WriteLine();
+System.Console.WriteLine("Постфикс vs префикс");
+
+int lessonNumber = 1;
+System.Console.WriteLine($"lessonNumber++  выводит: {lessonNumber++}");
+System.Console.WriteLine($"После этого lessonNumber = {lessonNumber}");
+
+int weekNumber = 1;
+System.Console.WriteLine($"++weekNumber  выводит: {++weekNumber}");
+System.Console.WriteLine($"После этого weekNumber = {weekNumber}");
+
+System.Console.WriteLine();
+System.Console.WriteLine("Практическая ловушка");
+
+int attempts = 0;
+System.Console.WriteLine($"Попытка №{++attempts}");
+System.Console.WriteLine($"Попытка №{++attempts}");
+System.Console.WriteLine($"Всего попыток: {attempts}");
